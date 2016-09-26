@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./css/common.css" />
+		<link rel="stylesheet" href="./css/home.css" />
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+		
+	</head>
+	
+	<body>
+		
+		<!--头部开始-->
+			<div id="header">
+				<a href="group.html" class="logo"><img src="images/logo_03.gif"/></a>
+				<ul>
+					<li class="one">
+						<a href="./home.html">集团简介</a>
+					     
+					</li>
+					<li>
+						
+						<a href="./development.html">项目简介</a>
+						<div>
+							<a href="./little_bigegg.html">株洲小巨蛋</a>
+							<a href="./allplan.html">总体规划</a>
+							<a href="./tradecenter.html">展贸中心</a>
+							<a href="./location.html">区位介绍</a>
+							<a href="./service.html">配送中心</a>
+							<a href="./apartment.html">国际公寓</a>
+							<a href="./development.html">二期发展</a>
+							
+						</div>
+						
+					</li>
+					<li><a href="./location.html">户型介绍</a>
+						
+						<div>
+							<a href="./little_bigegg.html">株洲小巨蛋</a>
+							<a href="./allplan.html">总体规划</a>
+							<a href="./tradecenter.html">展贸中心</a>
+							<a href="./location.html">区位介绍</a>
+							<a href="./service.html">配送中心</a>
+							<a href="./apartment.html">国际公寓</a>
+							<a href="./development.html">二期发展</a>
+							
+						</div>
+					</li>
+					<li><a href="./newslist.html">新闻更新</a>
+						
+						<div>
+							<a href="./little_bigegg.html">株洲小巨蛋</a>
+							<a href="./allplan.html">总体规划</a>
+							<a href="./tradecenter.html">展贸中心</a>
+							<a href="./location.html">区位介绍</a>
+							<a href="./service.html">配送中心</a>
+							<a href="./apartment.html">国际公寓</a>
+							<a href="./development.html">二期发展</a>
+							
+						</div>
+					</li>
+					<li><a href="./merchants.html">招商信息</a>
+						
+						<div>
+							<a href="./little_bigegg.html">株洲小巨蛋</a>
+							<a href="./allplan.html">总体规划</a>
+							<a href="./tradecenter.html">展贸中心</a>
+							<a href="./location.html">区位介绍</a>
+							<a href="./service.html">配送中心</a>
+							<a href="./apartment.html">国际公寓</a>
+							<a href="./development.html">二期发展</a>
+							
+						</div>
+					</li>
+					<li><a href="./message.html">留言联系</a>
+						
+						<div>
+							<a href="./little_bigegg.html">株洲小巨蛋</a>
+							<a href="./allplan.html">总体规划</a>
+							<a href="./tradecenter.html">展贸中心</a>
+							<a href="./location.html">区位介绍</a>
+							<a href="./service.html">配送中心</a>
+							<a href="./apartment.html">国际公寓</a>
+							<a href="./development.html">二期发展</a>
+							
+						</div>
+					</li>
+					<li><a href="./friendlink.html">友情链接</a>
+						<div>
+							<a href="./little_bigegg.html">株洲小巨蛋</a>
+							<a href="./allplan.html">总体规划</a>
+							<a href="./tradecenter.html">展贸中心</a>
+							<a href="./location.html">区位介绍</a>
+							<a href="./service.html">配送中心</a>
+							<a href="./apartment.html">国际公寓</a>
+							<a href="./development.html">二期发展</a>
+							
+						</div>
+					</li>
+				</ul>
+			</div>
+		<!--头部结束-->
+		
+		
+		<!--广告区开始-->
+		<div id="baner">	
+			<img src="./images/baner_01.gif"/>
+			
+            <a href="./newslist.html"><img src="./images/新闻列表_02.gif" class="a"/></a>
+             <a href="./merchants.html"><img src="./images/招商信息_01.gif"class="a"/></a>
+             <a href="./friendlink.html"><img src="./images/友情链接_02.gif" class="a"/></a>
+             <a href="./group.html"><img src="./images/集团简介123_02.gif" class="a"/></a>
+           
+			<!--<a href="index.html" class="button1">点击查看更多</a>
+			<a href="index.html" class="button2">分享一下</a>-->
+			
+			<ul class="ul1">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				
+			</ul>
+			<a href="#" id='a'><</a>
+			<a href="#" id='b'>></a>
+		</div>
+		<script>	
+		var ul1=document.getElementsByClassName('ul1')[0]
+	
+		var li=ul1.getElementsByTagName('li');
+			
+		var box=document.getElementById("baner");	
+		
+		var img=document.getElementsByClassName('a');
+	
+		
+		var k=0;
+      function fn(){
+			
+			k++;
+			if(k>=4){
+				k=0;
+			}
+			for(var j=0;j<li.length;j++){
+				li[j].style.background='white';
+				img[j].style.display='none';
+			}
+			
+			     li[k].style.background='blue';
+				 img[k].style.display='block';
+			   
+		}
+	    var timer=setInterval(fn,2000);
+			
+		  box.onmouseover=function(){
+		  	clearInterval(timer)
+		  }
+		
+		 box.onmouseout=function(){
+		 	timer=setInterval(fn,2000);
+		 }
+		
+		
+
+
+           for(var y=0;y<li.length;y++){
+           	  li[y].onmouseover=function(e){
+           	  	var h=window.event||e;
+           	  	
+           	  	var g=h.srcElement || h.target;
+           	  	
+           	  	var p;
+           	  	for(var b=0;b<li.length;b++){
+           	  		if(li[b]==g){p=b;}
+           	  		}	
+           	  			
+           	  	k=p;		
+           	  	for(var v=0;v<li.length;v++){
+           	  		li[v].style.background='white'
+           	  		img[v].style.display='none'
+           	  	}
+           	  	
+           	  	li[p].style.background='blue';
+           	  	img[p].style.display='block';
+           	  	
+           	  }
+           	
+           }
+		 
+		 
+		 
+		 
+		 var tui=document.getElementById('a')
+		 
+		  var jin=document.getElementById('b')
+		  
+		  
+		  
+		 tui.onclick=function(){
+		 	k--;
+		 	if(k<0){k=3;}
+		 		
+		 	for(var i=0;i<li.length;i++){
+		 		
+		 	 li[i].style.background='white'
+		 	 img[i].style.display='none'
+		 	}
+		 	li[k].style.background='blue'
+		 	img[k].style.display='block'
+		 }
+		 
+		
+		 jin.onclick=function(){
+		 	k++;
+		 	if(k>=li.length){k=0}
+		 				 	
+		 	for(var x=0;x<li.length;x++){
+		 		li[x].style.background='white'
+		 		img[x].style.display='none'
+		 	}
+		 	li[k].style.background='blue'
+		 	img[k].style.display='block'
+		 }
+		  
+		  
+		  
+		  
+		</script>
+		<!--<div id="baner">	
+			<img src="images/baner_01.gif" alt="" />
+			
+			<div class="video">
+				<img src="images/video_03.gif" alt="" />
+			</div>
+			
+			<a href="index.html" class="button1">点击查看更多</a>
+			<a href="index.html" class="button2">分享一下</a>
+			
+			
+			<ul>
+				<li class="one"><a href="#" ></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+		</div>
+		
+		<!--广告区结束-->
+		
+		
+		<!--中间内容区-->
+		
+		<div id="content">
+			<div id="new_side">
+				
+				<p id="scrollobj" style="width：840px  overflow：hidden"><marquee>在1815线上，将有一座标志性建筑即将拔地而起，这就是被誉为芦淞服饰之窗的服饰演艺发布中心，也就是“株洲小巨蛋”。 ——2013.7.11至2012.7.20</marquee></p>
+				
+			</div>
+			
+			<div id="pro_list">
+				
+					<dl class="one">
+						<img src="images/首页_03.gif" alt="" />
+						
+						<dt>株洲小巨蛋官方微信</dt>
+						<dd>赶快打开微信扫一扫，添加株洲小巨蛋官方微信，天天有好礼</dd>
+					</dl>
+					
+					<dl>
+						<img src="images/首页_05.gif" alt="" />
+						
+						<dt>城市新地标“小巨蛋”</dt>
+						<dd>“台北小巨蛋”因造型独特而闻名。如今，株洲也将建设美轮美奂的"小巨蛋"，打造城市新地标</dd>
+					</dl>
+					
+					<dl>
+						<img src="images/goods_list_03.gif" alt="" />
+						
+						<dt>株洲小巨蛋-欢迎您的加入</dt>
+						<dd>株洲小巨蛋”还将引进一流演艺团队，成为国内一流的大型服饰发布会、订货会等专业场地</dd>
+					</dl>
+				
+			</div>
+			
+				<div id="xmu">
+				
+				<h2>项目概况</h2>
+				<div class="left">
+					
+					<img src="images/zhanshi_03.gif" alt="" />
+				</div>
+				
+				<div class="right">
+					<h4>项目地址 : 湖南株洲芦淞区枫溪大道东侧</h4>
+					<p>投资商：广州汇美集团</p>
+					<p>开发商：株洲市汇美房地产开发有限公司</p>
+					<p>招商热线：0731-22509009或25882589 </p>
+					
+					<a href="#" class="buttonl">了解更多信息</a>
+					<a href="#" class="buttonr">分享一下</a>
+				</div>
+				
+				
+			</div>
+		
+		</div>
+	
+		
+
+		<div class="focus">
+			  <a href="javascript:;" class="arrow"></a>
+			  <h2>关注我们</h2>
+			  
+			  <div class="logo logo1">
+			  	<a href=""><img src="images/focus_07.gif" alt="" /></a>
+			  	<p>株洲小巨蛋</p>
+			  	<a href=""><img src="images/focus_14.gif" alt="" /></a>
+			  </div>
+			  	  <div class="logo logo2">
+			  	<a href=""><img src="images/focus_09.gif" alt="" /></a>
+			  	<p>株洲汇美国际服饰展贸中心</p>
+			  	<a href=""><img src="images/focus_14.gif" alt="" /></a>
+			  </div>
+			  	  <div class="logo logo3">
+			  	<a href=""><img src="images/focus_11.gif" alt="" /></a>
+			  	<p>广州汇美国际服装城</p>
+			  	<a href=""><img src="images/focus_14.gif" alt="" /></a>
+			  </div>
+			  	  <div class="logo logo4">
+			  	<a href=""><img src="images/focus_21.gif" alt="" /></a>
+			  	<p>新塘国际牛仔博展中心</p>
+			  	<a href=""><img src="images/focus_14.gif" alt="" /></a>
+			  </div>
+			  	  <div class="logo logo5">
+			  	<a href=""><img src="images/focus_24.gif" alt="" /></a>
+			  	<p>汇美集团</p>
+			  	<a href=""><img src="images/focus_14.gif" alt="" /></a>
+			  </div>
+			
+			
+			
+		</div>
+		
+		<!--关注联系-->
+		
+		
+		
+		
+	
+				<div id="footer">
+			
+			<ul>
+				
+				<li><img src="images/footer_03.gif"/></li>
+				<li>中国</li>
+				<li>隐私政策</li>
+				<li>使用条款</li>
+			</ul>
+			
+			<p id="foot_p">COPYRIGHT © 1996-2013 RFC COMMUNICATION TECHNOLOGY CO.LTD.ALL RIGHTS RESERVED.</p>
+			
+			
+		</div>
+		
+	
+	
+	</body>
+</html>
+
+	<script type="text/javascript">
+	
+	 	  var pull=document.getElementsByClassName('pull');
+//	 	  var abc=document.getElementsByClassName('content_bottom');
+         ondownload=function(){
+			pull.onclick=function(){
+				 
+//		abc.style.display="block";
+			
+		document.getElementsByClassName("content_bottom").style.display = "block";	
+			
+			
+		}
+		}
+	
+		
+	</script>

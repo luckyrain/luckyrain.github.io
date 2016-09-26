@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+#header{
+	
+	width: 1500px;
+	height: 73px;
+	margin: 0 auto;
+	background: url(../images/nav_b_01.gif) repeat-x left center;
+}
+
+#header a{
+	
+	width: 215px;
+	height: 72px;
+	display: block;
+	float: left;
+	text-align: center;
+
+}
+#header a img{
+	margin-top: 10px;
+	
+}
+
+#header ul{
+	
+	width: 1050px;
+	height: 72px;
+	float: left;
+}
+
+#header ul li{
+	
+	width: 150px;
+	height: 72px;
+	float: left;
+	line-height: 72px;
+	background:url(../images/border.jpg) no-repeat right center;
+	background-size: 1px 72px;
+	position: relative;
+}
+
+#header ul li.one{
+	
+	background: #dbdbdb;
+}
+#header ul li a{
+	width: 150px;
+	height: 72px;
+	display: block;
+	text-align: center;
+	color: #535353;
+}
+
+
+#header ul li div{
+	
+	width: 150px;
+	height: auto;
+	position: absolute;
+	top: 72px;
+	left: 0px;
+
+	display: none;
+}
+
+#header ul li:hover div{
+	
+	display: block;
+	z-index: 9;
+}
+
+
+
+
+#header ul li div a{
+	
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #535353;
+	font-size: 14px;
+	background: #dfdfdf url(../images/li_bottom_03.gif) no-repeat center bottom;
+}
+#header ul li div a:hover{
+	background: #d0d1d2 url(../images/li_bottom_03.gif) no-repeat center bottom;
+	
+}
+
+/*头部结束*/
+
+
+#baner{
+	
+	width: 1500px;
+	height: 520px;
+	margin: 0 auto;
+	box-shadow: -5px 5px 5px #415a6d;
+	position: relative;
+   
+	
+}
+
+#baner img{
+	width: 1500px;
+	height: 520px;
+	float:left;
+
+	
+	
+}
+.main{
+	width:1500px;
+	height:645px;
+	
+
+}
+.main p{
+    
+	font-size: 22px;
+	color:#12151c
+	margin-left: 286px;
+	
+	margin-left: 310px;
+	margin-top:60px ;
+
+}
+.main .p1{
+	width:674px;
+	height: 30px;
+	font-size:22px ;
+	color: grey;
+	margin-left:410px;
+	padding-left: 5px;
+	background-color:#efefef;
+	margin-top: 0px;
+	font-style:italic;
+}
+.main ul{
+	margin: 0 auto;
+	width:670px;
+	height: 370px;
+	color:#12151c;
+    margin-top: 37px;
+}
+.main ul li{
+	height: 40px;
+	width: 662px;
+	border-bottom: 1px dotted;
+	line-height: 40px;
+}
+#footer{
+	
+	width: 1500px;
+	height: 60px;
+	background: #444444;
+	margin: 0 auto;
+}
+#footer ul{
+	
+
+	height: 20px;
+	float: left;
+	margin-left: 185px;
+	margin-top: 25px;
+}
+#footer ul li{
+	
+	padding: 0 15px;
+	height: 20px;
+	float: left;
+	font-size: 11px;
+	color: #999;
+}
+#footer #foot_p{
+	font-family: '宋体';
+	
+	font-size: 8px;
+	color: #999;
+	float: right;
+	margin-top: 25px;
+	margin-right: 280px;
+	
+}

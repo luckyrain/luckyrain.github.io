@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+#header{
+	
+	width: 1500px;
+	height: 73px;
+	margin: 0 auto;
+	background: url(../images/nav_b_01.gif) repeat-x left center;
+}
+
+#header a{
+	
+	width: 215px;
+	height: 72px;
+	display: block;
+	float: left;
+	text-align: center;
+
+}
+#header a img{
+	margin-top: 10px;
+	
+}
+
+#header ul{
+	
+	width: 1050px;
+	height: 72px;
+	float: left;
+}
+
+#header ul li{
+	
+	width: 150px;
+	height: 72px;
+	float: left;
+	line-height: 72px;
+	background:url(../images/border.jpg) no-repeat right center;
+	background-size: 1px 72px;
+	position: relative;
+}
+
+#header ul li.one{
+	
+	background: #dbdbdb;
+}
+#header ul li a{
+	width: 150px;
+	height: 72px;
+	display: block;
+	text-align: center;
+	color: #535353;
+}
+
+
+#header ul li div{
+	
+	width: 150px;
+	height: auto;
+	position: absolute;
+	top: 72px;
+	left: 0px;
+
+	display: none;
+}
+
+#header ul li:hover div{
+	
+	display: block;
+	z-index: 9;
+}
+
+
+
+
+#header ul li div a{
+	
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #535353;
+	font-size: 14px;
+	background: #dfdfdf url(../images/li_bottom_03.gif) no-repeat center bottom;
+}
+#header ul li div a:hover{
+	background: #d0d1d2 url(../images/li_bottom_03.gif) no-repeat center bottom;
+	
+}
+
+/*头部结束*/
+
+
+#baner{
+	
+	width: 1500px;
+	height: 520px;
+	margin: 0 auto;
+	box-shadow: -5px 5px 5px #415a6d;
+	position: relative;
+
+	
+}
+
+#baner img{
+	width: 1500px;
+	height: 520px;
+	
+	
+}
+
+#baner .video{
+	width: 145px;
+	height: 92px;
+	position: absolute;
+	left: 310px;
+	top: 280px;
+	margin-top: 30px;
+}
+
+#baner .video img{
+	
+	width: 145px;
+	height: 92px;
+	box-shadow: 5px 5px 5px 5px rgba(255,255,255,0.3);
+}
+
+#baner .button1 {
+	position: absolute;
+	left: 310px;
+	top: 420px;
+	width: 110px;
+	height: 40px;
+	display: block;
+	border-radius: 8px;
+	text-align: center;
+	color: #eee;	
+	font-size: 12px;
+	line-height: 40px;
+	background: url(../images/images/button1_03.gif) no-repeat center center;
+}
+
+#baner .button2 {
+	position: absolute;
+	left: 430px;
+	top: 420px;
+	width: 110px;
+	height: 40px;
+	border-radius: 8px;
+	text-indent: 15px;
+	color: #eee;	
+	font-size: 12px;
+	line-height: 40px;
+	background: url(../images/images/button2_03.gif) no-repeat center center;
+	
+}
+
+
+#baner ul{
+	
+	
+	width: 102px;
+	height: 25px;
+	position: absolute;
+	left:1116px;
+	bottom: 17px;
+	text-align: center;
+	
+}
+#baner ul li{
+	
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	float: left;
+	background: #fff;
+	margin-left: 5px;
+	margin-top: 3px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.3) inset;
+}
+
+#baner ul li.one{
+	
+		background: #004f88;
+}
+	
+#footer{
+	
+	width: 1500px;
+	height: 60px;
+	background: #444444;
+	margin: 0 auto;
+}
+#footer ul{
+	
+
+	height: 20px;
+	float: left;
+	margin-left: 185px;
+	margin-top: 25px;
+}
+#footer ul li{
+	
+	padding: 0 15px;
+	height: 20px;
+	float: left;
+	font-size: 11px;
+	color: #999;
+}
+#footer #foot_p{
+	font-family: '宋体';
+	
+	font-size: 8px;
+	color: #999;
+	float: right;
+	margin-top: 25px;
+	margin-right: 280px;
+	
+}

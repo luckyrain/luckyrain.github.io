@@ -1,0 +1,318 @@
+@charset "utf-8";
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+#header{
+	
+	width: 1500px;
+	height: 73px;
+	margin: 0 auto;
+	background: url(../images/nav_b_01.gif) repeat-x left center;
+}
+
+#header a{
+	
+	width: 215px;
+	height: 72px;
+	display: block;
+	float: left;
+	text-align: center;
+
+}
+#header a img{
+	margin-top: 10px;
+	
+}
+
+#header ul{
+	
+	width: 1050px;
+	height: 72px;
+	float: left;
+}
+
+#header ul li{
+	
+	width: 150px;
+	height: 72px;
+	float: left;
+	line-height: 72px;
+	background:url(../images/border.jpg) no-repeat right center;
+	background-size: 1px 72px;
+	position: relative;
+}
+
+#header ul li.one{
+	
+	background: #dbdbdb;
+}
+#header ul li a{
+	width: 150px;
+	height: 72px;
+	display: block;
+	text-align: center;
+	color: #535353;
+}
+
+
+#header ul li div{
+	
+	width: 150px;
+	height: auto;
+	position: absolute;
+	top: 72px;
+	left: 0px;
+
+	display: none;
+}
+
+#header ul li:hover div{
+	
+	display: block;
+	z-index: 9;
+}
+
+
+
+
+#header ul li div a{
+	
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #535353;
+	font-size: 14px;
+	background: #dfdfdf url(../images/li_bottom_03.gif) no-repeat center bottom;
+}
+#header ul li div a:hover{
+	background: #d0d1d2 url(../images/li_bottom_03.gif) no-repeat center bottom;
+	
+}
+
+/*头部结束*/
+
+
+#baner{
+	
+	width: 1500px;
+	height: 520px;
+	margin: 0 auto;
+	box-shadow: -5px 5px 5px #415a6d;
+	position: relative;
+   
+	
+}
+
+#baner img{
+	width: 1500px;
+	height: 520px;
+	float:left;
+
+	
+	
+}
+
+
+.main5{
+	width:1500px;
+	height:1236px;
+	
+	margin-top:4px ;
+}
+.action{
+	width:900px;
+	height: 46px;
+	
+	line-height:46px ;
+	margin-left:306px ;
+	font-size: 22px;
+	
+
+}
+.action{
+	margin-top:55px;
+}
+.box{
+	width:678px;
+	height: 1046px;
+	
+	margin: 0 auto;
+	
+}
+.pagraph1{
+	width: 678px;
+	height: 30px;
+	background-color:grey;
+	font-size: 22px;
+	margin-left: 0px;
+	color:#525252;
+	font-style: italic;
+}
+.pagraph{
+	height: 70px;
+	width: 678px;
+	text-indent: 2px;
+	font-size: 12px;
+	font-style:none ;
+	margin-top: 45px;
+}
+.img1{
+	width:322px ;
+	height: 280px;
+	background: url(../images/vote1.gif)no-repeat;
+	
+	float: left;
+	margin-right: 33px;
+	margin-top: 26px;
+	
+}
+.button1{
+	width: 102px;
+	height: 42px;
+	background: url(../images/button1.gif)no-repeat;
+	color:#fff;
+	
+	margin-left: 111px;
+	margin-top: 232px;
+	padding-left: 33px;
+	padding-top: 8px;
+}
+.img2{
+	width:322px ;
+	height: 280px;
+	background: url(../images/vote2.gif)no-repeat;
+	
+	float: left;
+	margin-top: 26px;
+	
+	
+}
+.button2{
+	width: 102px;
+	height: 42px;
+	background: url(../images/button1.gif)no-repeat;
+	color:#fff;
+	
+	margin-left: 111px;
+	margin-top: 232px;
+	padding-left: 33px;
+	padding-top: 8px;
+}
+.img3{
+	width:322px ;
+	height: 280px;
+	background: url(../images/vote3.gif)no-repeat;
+	
+	float: left;
+	margin-right: 33px;
+	margin-top: 26px;
+	
+	
+}
+.button3{
+	width: 102px;
+	height: 42px;
+	background: url(../images/button1.gif)no-repeat;
+	color:#fff;
+	
+	margin-left: 111px;
+	margin-top: 232px;
+	padding-left: 33px;
+	padding-top: 8px;
+}
+.img4{
+	width:322px ;
+	height: 280px;
+	background: url(../images/vote4.gif)no-repeat;
+
+	float: left;
+	margin-top: 26px;
+	
+	
+}
+.button4{
+	width: 102px;
+	height: 42px;
+	background: url(../images/button1.gif)no-repeat;
+	color:#fff;
+	
+	margin-left: 111px;
+	margin-top: 232px;
+	padding-left: 33px;
+	padding-top: 8px;
+}
+.img5{
+	width:322px ;
+	height: 280px;
+	background: url(../images/vote5.gif)no-repeat;
+	
+	float: left;
+	margin-top: 26px;
+	
+	
+}
+.button5{
+	width: 102px;
+	height: 42px;
+	background: url(../images/button1.gif)no-repeat;
+	color:#fff;
+	
+	margin-left: 111px;
+	margin-top: 232px;
+	padding-left: 33px;
+	padding-top: 8px;
+}
+.footerbg{
+	width: 1500px;
+	height: 161px;
+	
+	background: url(../images/投票页面_02.gif)no-repeat;
+}
+#footer{
+	
+	width: 1500px;
+	height: 60px;
+	background: #444444;
+	margin: 0 auto;
+}
+#footer ul{
+	
+
+	height: 20px;
+	float: left;
+	margin-left: 185px;
+	margin-top: 25px;
+}
+#footer ul li{
+	
+	padding: 0 15px;
+	height: 20px;
+	float: left;
+	font-size: 11px;
+	color: #999;
+}
+#footer #foot_p{
+	font-family: '宋体';
+	
+	font-size: 8px;
+	color: #999;
+	float: right;
+	margin-top: 25px;
+	margin-right: 280px;
+	
+}
